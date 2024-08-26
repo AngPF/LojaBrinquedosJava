@@ -56,32 +56,85 @@ A classe BrinquedoService.java implementa a lógica de negócios da aplicação,
   
 Requisição:
 
-``` POST /Brinquedo ```
+```http 
+POST /Brinquedo
+```
 
 Corpo:
 
-``` ```
+```json 
+{
+  "nome": "Buzz Ligthyear",
+  "tipo": "Boneco",
+  "classificação": "Brinquedo Toy Story",
+  "tamanho": "medio",
+  "preco": 95.0
+}
+```
 
 Resposta:
 
-``` ```
+```json
+{
+  "id": 2,
+  "nome": "Buzz Ligthyear",
+  "tipo": "Boneco",
+  "classificação": "Brinquedo Toy Story",
+  "tamanho": "medio",
+  "preco": 95.0
+}
+
+```
 
 - Listar Brinquedos
   
 Requisição:
 
-``` GET /Brinquedo ```
+```http
+GET /Brinquedo
+```
 
 Resposta:
 
-``` ```
+```json
+[
+  {
+    "id": 1,
+    "nome": "Woody",
+    "tipo": "Boneco",
+    "classificação": "Brinquedo Toy Story",
+    "tamanho": "medio",
+    "preco": 87.0
+  }
+  {
+  "id": 2,
+  "nome": "Buzz Ligthyear",
+  "tipo": "Boneco",
+  "classificação": "Brinquedo Toy Story",
+  "tamanho": "medio",
+  "preco": 95.0
+}
+]
+```
 
 - Listar Brinquedos por ID
   
 Requisição:
 
-``` GET /Brinquedo/1 ```
+```http
+GET /Brinquedo/1
+```
 
 Resposta:
 
-``` ```
+```json
+{
+    "id": 1,
+    "nome": "Woody",
+    "tipo": "Boneco",
+    "classificação": "Brinquedo Toy Story",
+    "tamanho": "medio",
+    "preco": 87.0
+  }
+
+```
