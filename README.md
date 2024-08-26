@@ -51,8 +51,8 @@ A classe BrinquedoService.java implementa a lógica de negócios da aplicação,
 - PUT /brinquedos/{id}: Atualiza um brinquedo existente.
 - DELETE /brinquedos/{id}: Remove um brinquedo existente.
 
-## Exemplos de Requisições
-# Criar um Brinquedo
+# Exemplos de Requisições
+## Criar um Brinquedo
   
 Requisição:
 
@@ -86,7 +86,7 @@ Resposta:
 
 ```
 
-# Listar Brinquedos
+## Listar Brinquedos
   
 Requisição:
 
@@ -117,7 +117,7 @@ Resposta:
 ]
 ```
 
-# Listar Brinquedos por ID
+## Listar Brinquedos por ID
   
 Requisição:
 
