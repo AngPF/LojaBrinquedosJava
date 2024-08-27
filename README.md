@@ -1,3 +1,18 @@
+### Integrantes
+
+- Alberto Rubinho – RM 99706
+
+- Ana Beatriz Bento – RM 552536
+
+- Angelo Pelluci – RM 98310
+
+- Ruan Guedes – RM 551096
+
+
+### Link do Fork com o Deploy
+
+https://github.com/AlbertoRP11/LojaBrinquedosJava
+
 # LojaBrinquedosJava
 
 Este é um projeto de demonstração desenvolvido em Java usando Spring Boot para a criação de uma API RESTful que gerencia uma loja de brinquedos. O projeto inclui operações CRUD (Create, Read, Update, Delete) para gerenciar os brinquedos disponíveis na loja.
