@@ -72,7 +72,7 @@ A classe BrinquedoService.java implementa a lógica de negócios da aplicação,
 Requisição:
 
 ```http 
-POST /Brinquedo
+POST /Brinquedos
 ```
 
 Corpo:
@@ -97,7 +97,7 @@ Resposta:
 Requisição:
 
 ```http
-GET /Brinquedo
+GET /Brinquedos
 ```
 
 Resposta:
@@ -110,7 +110,7 @@ Resposta:
 Requisição:
 
 ```http
-GET /Brinquedo/1
+GET /Brinquedos/1
 ```
 
 Resposta:
@@ -123,7 +123,7 @@ Resposta:
 Requisição:
 
 ```http
-DELETE /Brinquedo/5
+DELETE /Brinquedos/5
 ```
 
 Resposta:
@@ -135,7 +135,7 @@ Resposta:
 Requisição:
 
 ```http
-PUT /Brinquedo/5
+PUT /Brinquedos/5
 ```
 
 Resposta:
