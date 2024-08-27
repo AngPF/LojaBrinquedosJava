@@ -1,0 +1,7 @@
+INTEGRANTES
+Ana Beatriz Bento – RM 552536 - 2TDSR
+Alberto Rubinho – RM 99706 - 2TDSR
+Angelo Pelluci – RM 98310 - 2TDSR
+Ruan Guedes – RM 551096 - 2TDSR
+
+Link GitHub: https://github.com/AngPF/LojaBrinquedosJava
