@@ -64,7 +64,7 @@ Corpo:
 
 ```json 
 {
-  "nome": "Buzz Ligthyear",
+  "nome": "Buzz Luz",
   "tipo": "Boneco",
   "classificação": "Brinquedo Toy Story",
   "tamanho": "medio",
@@ -74,17 +74,8 @@ Corpo:
 
 Resposta:
 
-```json
-{
-  "id": 2,
-  "nome": "Buzz Ligthyear",
-  "tipo": "Boneco",
-  "classificação": "Brinquedo Toy Story",
-  "tamanho": "medio",
-  "preco": 95.0
-}
+![image](https://github.com/user-attachments/assets/bfba0769-b69b-4621-a737-cd12eb632195)
 
-```
 
 ## Listar Brinquedos
   
@@ -96,26 +87,8 @@ GET /Brinquedo
 
 Resposta:
 
-```json
-[
-  {
-    "id": 1,
-    "nome": "Woody",
-    "tipo": "Boneco",
-    "classificação": "Brinquedo Toy Story",
-    "tamanho": "medio",
-    "preco": 87.0
-  }
-  {
-  "id": 2,
-  "nome": "Buzz Ligthyear",
-  "tipo": "Boneco",
-  "classificação": "Brinquedo Toy Story",
-  "tamanho": "medio",
-  "preco": 95.0
-}
-]
-```
+![image](https://github.com/user-attachments/assets/458915f1-e1d5-4baf-89b7-794cd80040eb)
+
 
 ## Listar Brinquedos por ID
   
@@ -127,14 +100,30 @@ GET /Brinquedo/1
 
 Resposta:
 
-```json
-{
-    "id": 1,
-    "nome": "Woody",
-    "tipo": "Boneco",
-    "classificação": "Brinquedo Toy Story",
-    "tamanho": "medio",
-    "preco": 87.0
-  }
+![image](https://github.com/user-attachments/assets/51e85bb0-f08c-4464-9755-23ca9a874d31)
 
+
+## Deletar Brinquedos por ID
+
+Requisição:
+
+```http
+DELETE /Brinquedo/5
 ```
+
+Resposta:
+
+![image](https://github.com/user-attachments/assets/d2471831-12f6-4746-8f3f-1be63d80cbfe)
+
+## Alterar Brinquedos por ID
+
+Requisição:
+
+```http
+PUT /Brinquedo/5
+```
+
+Resposta:
+
+![image](https://github.com/user-attachments/assets/f32eb9bc-918c-42d1-a8e8-2346bb0cb204)
+
